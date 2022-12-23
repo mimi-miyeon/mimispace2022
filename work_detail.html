@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to M.Y Space</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- header starts -->
+  <header class="container paddings">
+    <div class="header-container container row">
+      <h1 class="logo">
+        <a id="logo" href="main.html">미미스페이스</a>
+      </h1>
+      <button id="hamburger" class="hamburger mobile-con close" type="button">
+        <span></span><span style="opacity: 1"></span><span></span>
+      </button>
+      <ul id="mainMenu" class="nav-wrap">
+        <li class="nav"><a id="main" class="selected menu-btn" href="main.html">Home</a></li>
+        <li class="nav"><a id="work" href="work.html" class="menu-btn">Work</a></li>
+        <li class="nav"><a id="about" href="about.html" class="menu-btn">About</a></li>
+      </ul>
+  
+      <ul id="contactMenu" class="mobile-contact-btn mobile-con nav-wrap sns row">
+        <li class="nav"><a href="" class="menu-btn mobile-contact-btn">Email</a></li>
+        <li class="nav"><a href="" class="menu-btn mobile-contact-btn">LinkedIn</a></li>
+        <li class="nav"><a href="" class="menu-btn mobile-contact-btn">Instagram</a></li>
+      </ul>
+      <button class="contact-btn"><span></span><span></span><span></span><span></span></button>
+    </div>
+    <span id="menuBg"></span>
+  </header>
+  <!-- header ends  -->
+
+  <!-- main starts -->
+  <main>
+    <div class="section--image-container"></div>
+
+    <div class="main-container paddings">
+      <section class="section--project-explanation">
+        <div class="information--1 row">
+          <p class="project-visit col-lg-4"><a href="" class=""><span class="dot"></span>Visit the Project</a></p>
+          <p class="project-category col-lg-8">UI/UX Design, Development</p>
+        </div>
+        <div class="information--2 row">
+          <h2 class="project-heading col-lg-4">Project title or short explanation here</h2>
+          <p class="project-text col-lg-8">Project explanation about concept, ideas, and so on. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias illum mollitia veniam qui, dolore, officia temporibus sed eveniet quidem, possimus eum delectus nobis amet. Reprehenderit, eveniet! Quia voluptatibus reprehenderit laboriosam.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- main ends -->
+
+  <!-- footer starts -->
+  <footer>
+    <div class="footer-container container row">
+      <div class="footer-figure col-lg-3 col-sm-12"></div>
+      <ul class="footer-contact col-lg-9 row col-sm-12">
+        <li class="contact col-lg-6 col-m-12">
+          <p class="contact__text">Contact Me by Email</p>
+          <h2 class="contact__heading"><a href="">miyeon0403@hotmail.com</a></h2>
+        </li>
+  
+        <li class="contact col-lg-6 col-m-12">
+          <p class="contact__text">Contact Me by LinkedIn</p>
+          <h2 class="contact__heading"><a href="">LinkedIn</a></h2>
+        </li>
+  
+        <li class="contact col-lg-6 col-m-12">
+          <p class="contact__text">Check More About Me</p>
+          <h2 class="contact__heading"><a href="">Instagram</a></h2>
+        </li>
+  
+        <li class="contact col-lg-6 col-m-12">
+          <p class="contact__text">My Current Location</p>
+          <h2 class="contact__heading"><a href="">Sejong, Korea</a></h2>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- footer ends -->
+</body>
+</html>
